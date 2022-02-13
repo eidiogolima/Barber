@@ -5,16 +5,21 @@ ul {
   color: white;
   font-family: sans-serif;
 }
+.background-container{
+  max-width: 1200px;
+}
 
 #header {
-  max-width: 1600px;
-  margin: 0 20px;
+  max-width: 1200px;
+  margin: 0 auto;
   box-sizing: border-box;
   height: 70px;
-  padding: 1rem;
+  padding-top: 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  align-content: center;
+
 }
 
 #menu {
@@ -41,7 +46,9 @@ a {
 
 .header-bg {
   background-image: url('/assets/img/introducao/fundo.jpg');
-  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
 
 }
 
@@ -97,10 +104,13 @@ a {
 .botao a {
   color: #fff;
 }
-@media(max-width:600px){
- 
-}
+/* @media(min-width:2000px){
+  .header-bg{
+    background-image: url('/assets/img/introducao/fundo3x.jpg');
+    
 
+  }
+} */
 
 @media(max-width:400px){
   .header-bg{
@@ -125,6 +135,15 @@ a {
     font-size: 0.8rem;
   }
 }
+@media(max-width:220px){
+  .botao{
+    font-size: 0.5rem;
+
+  }
+  .seta{
+    width: 10px;
+  }
+}
 
 
 /* Background Mobile */
@@ -132,7 +151,7 @@ a {
 @media (max-width:500px) {
   .header-bg {
 
-    height: 100vh;
+    height: 90vh;
 
   }
 
@@ -145,6 +164,7 @@ a {
 
   #header {
 
+    padding-top: 0px;
     margin: 0 10px;
 
   }
@@ -178,7 +198,7 @@ a {
 
   #btn-mobile {
     display: flex;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0rem;
     font-size: 1rem;
     border: none;
     background: none;
