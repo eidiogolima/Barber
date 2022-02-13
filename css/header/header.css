@@ -201,9 +201,24 @@ a {
   #menu a {
     padding: 1rem 0;
     margin: 0 1rem;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.05);
     margin: 0 28px;
   }
+  #nav li a {
+    display: flex;
+    
+  }
+  #nav li a:after {
+    content: "";
+    display: none;
+    height: 2px;
+    width: 0px;
+    background: #EDDE54;
+    margin-top: 4px;
+    transition: 0.3s;
+    position: absolute;
+  }
+  
 
   #btn-mobile {
     display: flex;
