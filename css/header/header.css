@@ -14,15 +14,18 @@ ul {
   margin: 0 auto;
   box-sizing: border-box;
   height: 70px;
-  padding-top: 40px;
+  padding-top: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   align-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
 
 }
 
 #menu {
+  
   display: flex;
   list-style: none;
   gap: 0 40px;
@@ -115,10 +118,6 @@ a {
 @media(max-width:500px){
   .header-bg{
     background-image: url('/assets/img/introducao/mobilefundo.jpg');
-    
-    
-
-    
   }
   .botao {
     display: grid;
@@ -131,14 +130,13 @@ a {
   }
 }
 @media(max-width:290px){
-  .botao{
+  .botao-1{
     font-size: 0.8rem;
   }
 }
 @media(max-width:220px){
-  .botao{
-    font-size: 0.5rem;
-
+  .botao-1{
+    font-size: 0.7rem;
   }
   .seta{
     width: 10px;
@@ -172,6 +170,8 @@ a {
 
 
   #header {
+    padding-left: 0;
+    padding-right: 0;
 
     padding-top: 0px;
     margin: 0 20px;
@@ -207,6 +207,7 @@ a {
 
   #btn-mobile {
     display: flex;
+    margin-left: 8px;
     padding: 0.5rem 0rem;
     font-size: 1rem;
     border: none;
