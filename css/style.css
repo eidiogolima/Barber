@@ -5,4 +5,8 @@
 
 /* Utitarios */
 
-@import url('./ultilitarios/fonts/fonts.css')
+@import url('./ultilitarios/fonts/fonts.css');
+
+/* Componentes */
+
+@import url('./componentes/botao.css');
