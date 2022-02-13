@@ -112,7 +112,7 @@ a {
   }
 } */
 
-@media(max-width:400px){
+@media(max-width:500px){
   .header-bg{
     background-image: url('/assets/img/introducao/mobilefundo.jpg');
     
