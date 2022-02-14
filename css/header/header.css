@@ -122,7 +122,7 @@ a {
   .botao {
     display: grid;
     grid-template-columns: auto;
-    margin: 50vh 0px;
+    margin: 40vh 0px;
     justify-content: center;
     font-size: 1rem;
     text-transform: uppercase;
@@ -155,7 +155,7 @@ a {
   .botao {
     display: grid;
     grid-template-columns: auto;
-    margin: 50vh 0px;
+    margin: 34vh 0px;
     justify-content: center;
     font-size: 1rem;
     text-transform: uppercase;
@@ -262,10 +262,9 @@ a {
   }
 }
 
-
-
-@media(max-width:300px) {
+@media(max-width:500px) {
   #logo {
     width: 150px;
   }
 }
+
