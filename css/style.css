@@ -5,8 +5,12 @@
 
 /* Utitarios */
 
-@import url('./ultilitarios/fonts/fonts.css');
+@import url('./ultilitarios/tipografia/tipografia.css');
 
 /* Componentes */
 
 @import url('./componentes/botao.css');
+
+/* Tecnologia */
+
+@import url('./tecnologia/tecnologia.css');
