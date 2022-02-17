@@ -233,7 +233,14 @@
     margin-left: 0;
   }
 }
-
+@media(max-width:380px){
+  .container{
+    max-width: 380px;
+  }
+  .tecnologia-lista li img{
+    margin-left: 50px;
+  }
+}
 @media(max-width:300px){
   .container{
     max-width: 260px;
