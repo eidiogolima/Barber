@@ -189,7 +189,7 @@
 
 @media(max-width:600px){
   .container{
-    max-width: 400px;
+    max-width: 500px;
     padding-top:10px ;
     padding-bottom: 40px;
   }
@@ -201,14 +201,16 @@
     width:40px;
   }
   .tecnologia-lista li {
-    font-size: 1.5rem;
-    padding: 15px 20px; 
+    font-size: 2rem;
+    padding: 15px 40px; 
   }
 }
+
+
 @media(max-width:400px){
   .container{
     margin:0 10px;
-    max-width: 280px;
+    max-width: 340px;
   }
   .tecnologia-titulo h1 {
 
@@ -229,5 +231,18 @@
     font-size: 1.2rem;
     padding: 15px 30px;
     margin-left: 0;
+  }
+}
+
+@media(max-width:300px){
+  .container{
+    max-width: 260px;
+  }
+  
+  
+}
+@media(max-width:260px){
+  .container{
+    max-width: 200px;
   }
 }
