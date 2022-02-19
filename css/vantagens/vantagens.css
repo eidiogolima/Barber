@@ -1,0 +1,76 @@
+.vantagens-bg{
+  background-color:#141414;
+}
+.vantagens{
+  padding-top: 40px;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
+
+}
+.vantagens-titulo {
+  word-wrap: break-word;
+  max-width: 4ch;
+  text-align: center;
+}
+.vantagens-lista li{
+
+  text-align: left;
+  padding: 52px 0px;
+  margin-left: 36px;
+}
+
+.vantagens-lista2 li{
+  padding: 52px 0px;
+  text-align: right;
+  margin-right:10px;
+ 
+}
+
+.vantagens::before{
+  position: absolute;
+  content: "";
+  width: 1200px;
+  height: 520px;
+  border: 1px solid #525252;
+  margin: 0 auto;
+  border-top: 0;
+  border-bottom:0px;
+  margin-left: 20px;
+}
+.vantagens-lista li::after {
+  position: absolute;
+  content: "";
+
+  margin-left: 0px;
+  width: 320px;
+  margin-top: 20px;
+  border: 1px solid #525252;
+  display: flex;
+}
+.vantagens-lista2 li::after{
+  position: absolute;
+  content: "";
+
+  margin-left: 80px;
+  width: 320px;
+  margin-top: 20px;
+  border: 1px solid #525252;
+  display: flex;
+}
+
+
+/* Tira duas ultimas linha de decoração dos elementos */
+.vantagens-lista2 li:last-child::after{
+  display:none;
+}
+.vantagens-lista li:last-child::after{
+  display:none;
+}
+
+@media(max-width:1240px){
+  .vantagens{
+  }
+
+}

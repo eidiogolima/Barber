@@ -8,16 +8,17 @@
   text-transform: uppercase;
   letter-spacing: 1.5px;
   font-size: 7rem;
+  color: #686868;
 }
 
 .tecnologia-bg{
-
+  padding: 120px 0;
   background-color:#F7F7F7 ;
   color: #292929;
 }
 .tecnologia-lista li {
   max-width: 300px;
-  color: #292929;
+  color: #5C5C5C;
 }
 .tecnologia-lista li img {
   display: none;
@@ -28,6 +29,7 @@
   
 }
 .tecnologia-lista{
+  margin-top: 40px;
   list-style: none;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -36,7 +38,7 @@
 .tecnologia-lista::before{
   content: "";
   width: 1164px;
-  border: 1px solid #000;
+  border: 1px solid #9E9E9E;
   position: absolute;
   margin-top: 120px;
   margin-left: 8px;
@@ -47,7 +49,7 @@
 .tecnologia-lista .this::after{
   content: "";
   height: 100px;
-  border: 1px solid #000;
+  border: 1px solid #9E9E9E;
   position: absolute;
   margin-left: 460px;
 
@@ -58,7 +60,7 @@
 .tecnologia-lista::after{
   content: "";
   height: 100px;
-  border: 1px solid #000;
+  border: 1px solid #9E9E9E;
   position: absolute;
   margin-left: 340px;
 
@@ -126,10 +128,66 @@
   
   }
 }
-
 @media(max-width:800px){
+  .tecnologia-bg{
+    padding: 80px 0;
+  }
   .container{
     max-width: 600px;
+    padding-bottom: 0;
+    
+  }
+  .tecnologia-lista::before{
+    margin-top: 60px;
+    width: 580px;
+  }
+  .tecnologia-titulo h1 {
+    font-size: 3rem;
+  }
+  .tecnologia-lista li {
+    font-size: 1.125rem;
+   
+  }
+  .tecnologia-lista .this::after{
+    height: 50px;
+    margin-top: -18px;
+    margin-left: 220px;
+    
+  }
+  
+  .tecnologia-lista::after{
+    height: 50px;
+    margin-top: 6px;
+    margin-left:200px;
+    
+  }
+}
+
+
+
+@media(max-width:600px){
+  .tecnologia-lista{
+    gap: 0;
+    
+  }
+  .tecnologia-bg{
+
+    padding:34px 0;
+  }
+  .container{
+    max-width: 600px;
+    padding: 0;
+  }
+  .tecnologia-lista{
+    margin-top: 18px;
+    grid-template-columns: 1fr;
+    gap:20px 0;
+  }
+  .tecnologia-lista li img {
+    display: inline-flex;
+    width: 40px;
+    margin-left: 50px;
+    justify-content: flex-end;
   }
   .tecnologia-titulo{
     justify-content: start;
@@ -137,45 +195,24 @@
     margin-right: 20px;
   }
   .tecnologia-titulo h1{
-    font-size: 3rem;
-    color: #444444;
+    font-size: 3.4rem;
+    
+    color: #969696;
     text-transform: none;
-  }
-  .tecnologia-lista::before{
-    display: none;
-  
-  }
-  
-  .tecnologia-lista .this::after{
-    display: none;
     
   }
-  
-  .tecnologia-lista::after{
-    display: none;
-  }
-
-  .tecnologia-lista{
-    
-    grid-template-columns: 1fr;
-    gap:20px 0;
-  }
-  .tecnologia-lista li img {
-    display: inline;
-    width: 60px;
-    margin-left: 14px;
-  }
-  
   .tecnologia-lista li {
-    
-    
+    max-width: 100vw;
+    position: relative;
     display: flex;
-    margin-left: 20px;
+    align-content: flex-start;
     color: #6D6D6D;
-    padding: 20px 100px;
-    font-size: 1.8rem;
-    
+    font-size: 1.5rem;
     text-align: left;
+    padding: 15px 30px; 
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left: 22px;
   }
   .tecnologia-lista li:nth-child(odd) {
     background-color: #FAFAFA;
@@ -184,28 +221,20 @@
   .tecnologia-lista li:hover{
     border-bottom: 2px solid #D2C01E;
   }
-
-} 
-
-@media(max-width:600px){
-  .container{
-    max-width: 500px;
-    padding-top:10px ;
-    padding-bottom: 40px;
+  .tecnologia-lista::before{
+    display: none;
+  }
+  .tecnologia-lista .this::after{
+    display: none;
+  }
+  .tecnologia-lista::after{
+    display: none;
   }
   .tecnologia-titulo h1 {
-
     font-size: 2rem;
   }
-  .tecnologia-lista li img{
-    width:40px;
-  }
-  .tecnologia-lista li {
-    font-size: 1.5rem;
-    padding: 15px 40px; 
-  }
+  
 }
-
 
 @media(max-width:400px){
   .container{
@@ -231,19 +260,27 @@
     font-size: 1.2rem;
     padding: 15px 30px;
     margin-left: 0;
+    margin-right: 0;
   }
 }
 @media(max-width:300px){
+  .tecnologia-bg{
+    padding: 20px 0;
+  }
   .container{
     max-width: 200px;
   }
   .tecnologia-lista li {
-    font-size: 1rem;
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+  .tecnologia-titulo h1 {
+    font-size: 1.1rem
   }
   
   
 }
-@media(max-width:260px){
+@media(max-width:290px){
   .container{
     max-width: 200px;
   }

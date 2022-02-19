@@ -1,4 +1,4 @@
-
+@import url('global/global.css');
 /* Header */
 
 @import url('./header/header.css');
@@ -6,6 +6,7 @@
 /* Utitarios */
 
 @import url('./ultilitarios/tipografia/tipografia.css');
+@import url('./ultilitarios/container/container.css');
 
 /* Componentes */
 
@@ -14,3 +15,7 @@
 /* Tecnologia */
 
 @import url('./tecnologia/tecnologia.css');
+
+/* Vantagens */
+
+@import url('./vantagens/vantagens.css')
