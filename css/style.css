@@ -1,21 +1,15 @@
-@import url('global/global.css');
-/* Header */
 
-@import url('./header/header.css');
+/* Global */
+
+@import url('./global/global.css');
+@import url('./global/header.css');
 
 /* Utitarios */
 
-@import url('./ultilitarios/tipografia/tipografia.css');
-@import url('./ultilitarios/container/container.css');
+@import url('./ultilitarios/tipografia.css');
+@import url('./ultilitarios/componentes.css');
 
-/* Componentes */
+/* Home */
 
-@import url('./componentes/botao.css');
-
-/* Tecnologia */
-
-@import url('./tecnologia/tecnologia.css');
-
-/* Vantagens */
-
-@import url('./vantagens/vantagens.css')
+@import url('./home/tecnologia.css');
+@import url('./home/vantagens.css');

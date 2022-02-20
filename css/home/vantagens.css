@@ -1,0 +1,14 @@
+.vantagens-bg{
+  background-color: #141414;
+}
+.vantagens {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1200px;
+  align-content: center;
+
+}
+.vantagens-h1 h1{
+  display: grid;
+  
+}
