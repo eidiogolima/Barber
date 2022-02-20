@@ -1,15 +1,3 @@
-
-
-/* 7 Adicione o CSS Essencial abaixo */
-[data-anime] {
-  opacity: 0;
-}
-.anime {
-  opacity: 1;
-  transform: none;
-  transition: transform 0.8s, opacity 0.8s;
-}
-
 .fadeInDown {
   transform: translate3d(0, -20px, 0);
 }
@@ -22,3 +10,14 @@
 .fadeInLeft {
   transform: translate3d(-20px, 0, 0);
 }
+
+/* 7 Adicione o CSS Essencial abaixo */
+[data-anime] {
+  opacity: 0;
+}
+.anime {
+  opacity: 1;
+  transform: none;
+  transition: transform 0.8s, opacity 0.8s;
+}
+
