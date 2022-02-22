@@ -10,6 +10,10 @@
 .vantagens li{
   margin-top: 40px;
 }
+.vantagens .lista2{
+  text-align: right;
+}
+
 
 .titulo-principal h1{
   display: grid;
