@@ -38,6 +38,10 @@
   display: none;
 }
 
+.dec-whats{
+  color: inherit;
+}
+
 @media(max-width:1200px){
   .titulo-principal h1{
     font-size: 7rem;
@@ -108,6 +112,9 @@
     font-size: 3rem;
     color: #c2c2c2;
     justify-content: center;
+  }
+  .dec-whats{
+    color: #2BB641;
   }
 }
 
