@@ -83,7 +83,7 @@ br{
     display: initial;
   }
   .tecnologia-bg{
-    padding: 40px 0;
+    padding: 40px 10px;
   }
   .tecnologia-lista ul{
     justify-content: space-between;
@@ -120,7 +120,7 @@ br{
     
   }
   .tecnologia-bg h1{
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: left;
     text-transform:initial;
     padding-bottom: 20px;
@@ -147,7 +147,7 @@ br{
     padding: 20px 0;
   }
   .tecnologia-bg h1{
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
 
   .icone{
