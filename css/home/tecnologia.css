@@ -1,6 +1,6 @@
 .tecnologia-bg{
-  background-color: #FAFAFA;
-  padding: 120px 0;
+  background-color: #F5F5F5;
+  padding: 160px 0;
 }
 br{
   display: none;
@@ -8,10 +8,11 @@ br{
 .tecnologia-bg h1{
   color: #686868;
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
   text-transform: uppercase;
 }
 .tecnologia-bg li{
+  
   color: #5C5C5C;
   text-align: center;
 }
@@ -96,6 +97,9 @@ br{
     display: flex;
     justify-content: space-between;
     
+  }
+  .tecnologia-lista li:hover{
+    border-bottom: 2px solid #D2C01E;
   }
   .icone{
     display: initial;
