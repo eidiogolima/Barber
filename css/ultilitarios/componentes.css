@@ -29,6 +29,9 @@
   margin-left: 10px;
 
 }
+.cor-ponto{
+  color: #FF7A00;
+}
 
 @media (max-width:400px){
   .bt-estilo{

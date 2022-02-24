@@ -13,8 +13,6 @@
 .vantagens .lista2{
   text-align: right;
 }
-
-
 .titulo-principal h1{
   display: grid;
   grid-template-columns: 4ch;
@@ -23,9 +21,6 @@
   text-align: center;
   text-transform: uppercase;
 }
-
-
-
 .vantagens li::after{
   margin-top: 40px;
   display: flex;
