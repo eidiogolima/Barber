@@ -5,7 +5,7 @@
 
 .sobre h1{
   color: #292929;
-  padding-bottom: 40px;
+  padding-bottom:40px;
   text-transform: uppercase;
 }
 .sobre p {
@@ -13,7 +13,7 @@
   
 }
 .sobre{
-  gap: 0px 40px;
+  
   display:grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -26,6 +26,7 @@
     padding: 60px 0;
   } 
   .sobre h1{
+    padding-bottom: 20px;
     font-size: 3rem;
     text-transform: none;
   }
@@ -37,15 +38,13 @@
   }
 }
 @media(max-width:700px){
-  .sobre-bg{
-    padding: 10px 0;
-  } 
+  
   .sobre{
     grid-template-columns: 1fr;
   }
-  .sobre h1 {
-    font-size: 2.4rem;
+  .sobre .apoiamos h1 {
     padding-top: 40px;
+    font-size: 2.4rem;
     padding-bottom: 10px;
   }
   .sobre p{
@@ -53,9 +52,12 @@
   }
 }
 @media(max-width:500px){
+  .sobre-bg{
+    padding: 40px 0;
+  }
   
   .sobre h1{
-    font-size: 2rem ;
+    font-size: 2.5rem ;
   }
   .sobre p {
     font-size: 1.4rem;
