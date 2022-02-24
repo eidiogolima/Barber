@@ -1,6 +1,6 @@
 .vantagens-bg{
   background-color: #141414;
-  padding: 60px 0;
+  padding: 120px 0;
 }
 
 .vantagens{
@@ -38,7 +38,7 @@
 }
 
 .dec-whats{
-  color: inherit;
+  color: #198B19;
 }
 
 @media(max-width:1200px){
@@ -51,6 +51,9 @@
   
 }
 @media(max-width:900px){
+  .vantagens-bg{
+    padding: 80px 0;
+  }
   .vantagens li {
     font-size: 1.5rem;
   }
@@ -118,9 +121,8 @@
 }
 
 @media(max-width:400px){
-  .vantagens-bg{
-    padding: 40px 10px;
-  }
+
+  
   .hidden{
     font-size: 2.4rem;
   }
