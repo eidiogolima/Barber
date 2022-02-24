@@ -20,22 +20,22 @@
 
   <!-- <======= HEADER =========> -->
 
-  <div class="header-bg">
+  <div id = "inicio" class="header-bg">
     <header id="header">
-      <a href=""><img id="logo" src="./assets/img/logo/logo.svg" alt=""></a>
+      <a  href=""><img id="logo" src="./assets/img/logo/logo.svg" alt=""></a>
       <nav id="nav">
         <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
           <span id="hamburger"></span>
         </button>
         <ul id="menu" role="menu">
-          <li><a class="font-2-xs-b" href="/">Contato</a></li>
+          <li id = "contato" ><a class="font-2-xs-b" href="/">Contato</a></li>
           <li><a class="font-2-xs-b" href="/">Promoções</a></li>
           <li><a class="font-2-xs-b" href="/">Agendar horario</a></li>
         </ul>
       </nav>
     </header>
     <div data-anime="100" class="botao fadeInLeft">
-      <a href="/">
+      <a id="agendar" href="/">
         <div class="botao-1 font-2-s-b">Agendar Horario <img class="seta" src="/assets/img/icones/seta.svg" alt=""> </div>
       </a>
 
@@ -65,7 +65,7 @@
 
   <!-- <======= VANTAGENS =========> -->
 
-  <section class="vantagens-bg">
+  <section id = "vantagens" class="vantagens-bg">
     <div class="container">
       <h1 class="font-1-xxl hidden">Vantagens</h1>
       <div class="vantagens">
@@ -86,7 +86,7 @@
           <ul>
             <li class="font-2-l">Alta Qualidade no Atendimento</li>
             <li class="font-2-l">Respostas chegam em Até 24h</li>
-            <li class="font-2-l">Promoções Exclusivas no site</li>
+            <li id = "promocao" class="font-2-l">Promoções Exclusivas no site</li>
           </ul>
         </div>
       </div>
@@ -97,18 +97,18 @@
   <!-- <======= SOBRE =========> -->
 
 
-  <section class="sobre-bg">
+  <section id = "sobre" class="sobre-bg">
     <div class="container">
       <div class="sobre">
 
-        <div class = "sobre-nos">
-          <h1 class = "font-1-xl">Sobre-Nós<span class="cor-ponto">.</span></h1>
-          <p class = "font-2-l">Viemos para revolucionar o mercado, não somente no corte como também no atendimento. Fazendo de tudo para que você se sinta confortavél.</p>
+        <div class="sobre-nos">
+          <h1 class="font-1-xl">Sobre-Nós<span class="cor-ponto">.</span></h1>
+          <p class="font-2-l">Viemos para revolucionar o mercado, não somente no corte como também no atendimento. Fazendo de tudo para que você se sinta confortavél.</p>
         </div>
 
-        <div class = "apoiamos">
-          <h1 class = "font-1-xl">Apoiamos<span class="cor-ponto">.</span></h1>
-          <p class = "font-2-l">Preservação do meio ambiente, Energia renovavel e respeito ao proximo</p>
+        <div class="apoiamos">
+          <h1 class="font-1-xl">Apoiamos<span class="cor-ponto">.</span></h1>
+          <p class="font-2-l">Preservação do meio ambiente, Energia renovavel e respeito ao proximo</p>
         </div>
       </div>
 
@@ -117,6 +117,49 @@
 
 
   <!-- <======= FOOTER =========> -->
+
+  <footer class="footer-bg">
+    <div class="container">
+      <div class="footer">
+        <div class="contato">
+          <h1 class="font-1-l-b">Contato</h1>
+          <ul>
+            <li class="font-2-s-b">(11) 99999-9999</li>
+            <li class="font-2-s-b">barbershop@contato.com</li>
+
+
+          </ul>
+          <div class="endereco">
+            <ul>
+              <li class="font-2-s-b">Av. La casa del nombre, 1048</li>
+              <li class="font-2-s-b">CEP 09999-999</li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="social">
+          <h1 class="font-1-l-b">Sociais</h1>
+          <ul>
+            <a href="https://www.instagram.com/ei.diogolima/"> <li class="font-2-s-b"><img src="./assets/img/icones/instagram.svg" alt=""></li></a>
+            <a href="https://www.youtube.com/"><li class="font-2-s-b"><img src="./assets/img/icones/youtube.svg" alt=""></li></a>
+            <a href="https://www.facebook.com/"><li class="font-2-s-b"><img src="./assets/img/icones/facebook.svg" alt=""></li></a>
+          </ul>
+        </div>
+
+        <div class="informacoes">
+          <h1 class="font-1-l-b">informações</h1>
+          <ul>
+            <a href="#inicio"> <li class="font-2-s-b">Inicio</li></a>
+            <a href="#contato"> <li class="font-2-s-b">Contato</li></a>
+            <a href="#vantagens"><li class="font-2-s-b">Promoção</li></a>
+            <a href="#sobre"> <li class="font-2-s-b">Sobre-Nós</li></a>
+           <a href="#inicio"> <li class="font-2-s-b">Agendar Horário</li> </a>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 
 
