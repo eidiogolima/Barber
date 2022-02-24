@@ -18,7 +18,8 @@
   color: #F1F1F1;
   margin-bottom: 26px;
 }
-.footer li{
+.footer li,
+.footer li a{
   color: #E2E2E2;
 }
 .contato li{
