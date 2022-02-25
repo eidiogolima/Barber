@@ -59,14 +59,14 @@
     font-size: 1rem;
     word-break: break-all;
   }
-  .informacoes{
-    display: none;
-  }
   .social{
     padding-top: 20px;
     margin: 0;
   }
+  .informacoes{
+    margin-top:20px;
+  }
   .social ul{
-    gap: 20px 16px;
+    gap: 40px 16px;
   }
 }
