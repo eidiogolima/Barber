@@ -92,7 +92,7 @@
   }
   .vantagens li{
     text-align: left;
-    margin-left: 20px;
+    margin-left: 28px;
     padding: 6px 6px;
     word-break: normal;
     color: #dfdfdf;
@@ -109,10 +109,12 @@
     display: none;
   }
   .hidden{
+    
+    padding-bottom:20px;
     display: flex;
-    font-size: 3rem;
+    font-size: 2.4rem;
     color: #c2c2c2;
-    justify-content: start;
+    
   }
   .dec-whats{
     color: #2BB641;
