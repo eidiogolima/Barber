@@ -5,6 +5,9 @@
 br{
   display: none;
 }
+.h1-mobile{
+  display: none;
+}
 .tecnologia-bg h1{
  
   color: #686868;
@@ -78,6 +81,14 @@ br{
   br{
     display: initial;
   }
+  .h1-mobile{
+
+    display: flex;
+    padding-bottom: 40px;
+  }
+  .h1-tecnologia{
+    display: none;
+  }
   .tecnologia-bg{
     
     padding: 80px 0px;
@@ -94,7 +105,7 @@ br{
     
   }
   .tecnologia-lista li:hover{
-    border-bottom: 2px solid #D2C01E;
+    
   }
   .icone{
     display: initial;
@@ -110,7 +121,7 @@ br{
   .tecnologia-bg h1{
     text-transform: none;
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 2.4rem;
     text-align: left;
     padding-bottom: 40px;
     line-height: 100%;
@@ -130,6 +141,9 @@ br{
   .tecnologia-lista li:last-child,
   .tecnologia-lista li:first-child{
     color: #cfcfcf;
+    border-left: 4px solid #D2C01E;
+
+    
   }
   .tecnologia-bg .estilo:nth-child(odd){
     background-color: rgb(29, 29, 29);
@@ -140,11 +154,8 @@ br{
 }
 
 @media(max-width:300px){
-  .tecnologia-bg{
-    
-  }
   .tecnologia-bg h1{
-    font-size: 1.7rem;
+    font-size: 2rem;
   }
 
   .icone{
