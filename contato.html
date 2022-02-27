@@ -37,9 +37,9 @@
             <span id="hamburger"></span>
           </button>
           <ul id="menu" role="menu">
-            <li id="contato"><a class="font-2-xs-b" href="./contato.html">Contato</a></li>
+            <li id="contato"><a class="font-2-xs-b" href="/">Contato</a></li>
             <li><a class="font-2-xs-b" href="/">Promoções</a></li>
-            <li><a class="font-2-xs-b" href="/">Agendar horario</a></li>
+            <li><a class="font-2-xs-b" href="./agendar.html">Agendar horario</a></li>
           </ul>
         </nav>
       </header>
@@ -52,7 +52,7 @@
   <section class="agendar">
     <div class="h1-bg">
       
-      <h1 class="font-2-l-b">Agendar Horário<span class="cor-ponto">.</span> </h1>
+      <h1 class="font-2-l-b">Entre em contato<span class="cor-ponto">.</span> </h1>
     </div>
     <div class="agendar-formulario">
       <form class = "form" action="">
@@ -69,16 +69,11 @@
           <input type="email" id = "email" name = "email" placeholder="contato@email.com">
         </div>
 
-        <div>
-          <label for="dia-mes">Dia/Mês</label>
-          <input type="text" id = "dia-mes" name="dia-mes" placeholder="dd/mm">
+        <div class = "col-2 mensagem">
+          <label for="dia-mes">Mensagem</label>
+          <textarea rows="5" id="mensagem" name="mensagem" placeholder="O que você precisa?"></textarea>
         </div>
-
-        <div>
-          <label for="hora">Horário</label>
-          <input type="text" id = "hora" name = "hora" placeholder="13:00">
-        </div>
-        <button id = "botao" class = "  col-2">Agendar</button>
+        <button id = "botao" class = "  col-2">Eviar Mensagem</button>
       </form>
     </div>
 

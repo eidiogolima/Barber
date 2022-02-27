@@ -27,7 +27,7 @@
 #botao{
   display: flex;
   padding: 15px 40px;
-  background-color: #FFC700;
+  background:linear-gradient(#F8E540 , #E8D213);
   border-radius: 4px;
   color: #2b2201;
   margin: 10px 0;
@@ -36,7 +36,13 @@
   font-size: 1rem;
   text-transform: uppercase;
   font-weight: 600;
+
   
+}
+
+#botao:hover{
+  background:linear-gradient(#ebd93b , #ddc915);
+  cursor: pointer;
 }
 
 .seta{

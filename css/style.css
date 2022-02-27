@@ -22,3 +22,6 @@
 /* Agendar */
 @import url('./agendar/agendar.css');
 @import url('./ultilitarios/formulario.css');
+
+/* Contato */
+@import url("./contato/contato.css");
