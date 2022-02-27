@@ -24,6 +24,20 @@
   border: 1px solid #D2C01E;
   border-radius: 4px;
 }
+#botao{
+  display: flex;
+  padding: 15px 40px;
+  background-color: #FFC700;
+  border-radius: 4px;
+  color: #2b2201;
+  margin: 10px 0;
+  max-width: fit-content;
+  border: 0;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  
+}
 
 .seta{
   margin-left: 10px;

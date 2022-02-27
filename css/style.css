@@ -19,3 +19,6 @@
 @import url('./home/vantagens.css');
 @import url('./home/sobre.css');
 
+/* Agendar */
+@import url('./agendar/agendar.css');
+@import url('./ultilitarios/formulario.css');
