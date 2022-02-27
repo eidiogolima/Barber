@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preload" href="./css/style.min.css" as="style">
+  <link rel="stylesheet" href="./css/style.min.css">
+
+  <title>Barber Shop</title>
+  <!-- Fonts Import: Livvic, Sarabun -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@500;600&family=Sarabun:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    #header {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    .header-cor{
+      background-color: #000;
+    }
+  </style>
+
+</head>
+
+<body>
+
+
+  <!-- <======= HEADER =========> -->
+
+  <div class="header-cor">
+    <div id="inicio" class="header">
+      <header id="header">
+        <a href=""><img id="logo" src="./assets/img/logo/logo.svg" alt=""></a>
+        <nav id="nav">
+          <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+            <span id="hamburger"></span>
+          </button>
+          <ul id="menu" role="menu">
+            <li id="contato"><a class="font-2-xs-b" href="/">Contato</a></li>
+            <li><a class="font-2-xs-b" href="/">Promoções</a></li>
+            <li><a class="font-2-xs-b" href="/">Agendar horario</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+  </div>
+
+
+
+
+  <!-- Calender text -->
+
+  <form name="cadastro" method="GET" action=" script.php">
+    <label for="data">Ecokha uma data</label>
+    <input type="datetime-local" id="data" name="data">
+  </form>
+
+
+  <!-- <======= FOOTER =========> -->
+
+  <!--   <footer class="footer-bg">
+    <div class="container">
+      <div class="footer">
+        <div class="contato">
+          <h1 class="font-1-l-b">Contato</h1>
+          <ul>
+            <li class="font-2-s-b">(11) 99999-9999</li>
+            <li class="font-2-s-b">barbershop@contato.com</li>
+          </ul>
+          <div class="endereco">
+            <ul>
+              <li class="font-2-s-b">Av. La casa del nombre, 1048</li>
+              <li class="font-2-s-b">CEP 09999-999</li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="social">
+          <h1 class="font-1-l-b">Sociais</h1>
+          <ul>
+            <li class="font-2-s-b"><a href="https://www.instagram.com/ei.diogolima/"><img src="./assets/img/icones/instagram.svg" alt=""></li></a>
+            <li class="font-2-s-b"><a href="https://www.youtube.com/"><img src="./assets/img/icones/youtube.svg" alt=""></li></a>
+            <li class="font-2-s-b"><a href="https://www.facebook.com/"><img src="./assets/img/icones/facebook.svg" alt=""></li></a>
+          </ul>
+        </div>
+
+        <div class="informacoes">
+          <h1 class="font-1-l-b">informações</h1>
+          <ul>
+            <li class="font-2-s-b"><a href="#inicio">Inicio</li></a>
+            <li class="font-2-s-b"><a href="#contato">Contato</li></a>
+            <li class="font-2-s-b"><a href="#vantagens">Promoção</li></a>
+            <li class="font-2-s-b"><a href="#sobre">Sobre-Nós</li></a>
+            <li class="font-2-s-b"><a href="#inicio">Agendar Horário</li> </a>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+ -->
+
+
+
+
+
+  <script src="./js/header/header.js"></script>
+  <script src="./js/plugins/simple-anime.js"></script>
+
+
+
+</body>
+
+</html>
