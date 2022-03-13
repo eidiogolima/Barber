@@ -1,64 +1,106 @@
+#promocao {
+  background: linear-gradient(#111111 400px, #f7f7f7 0px);
+}
 
-#background{
-  background: linear-gradient(#111111 600px, #f7f7f7 0px);
+.header-cor{
+  background-color: #000;
 }
 .promocao{
-  background-color: #ffffff;
-  filter: drop-shadow(0px 2px 10px rgba(0, 0, 0, 0.25));
-  padding: 100px;
-  margin-bottom: 100px;
+  
+  box-sizing:border-box;
+  max-width: 1000px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 120px;
+}
+
+.h1-bg{
+  padding: 40px 0;
+}
+.h1-bg h1{
+  font-size: 4rem
+}
+.promocao-frase{
   border-radius: 4px;
+  background-color: #fafafa;
+  filter: drop-shadow(0px 2px 10px rgba(0, 0, 0, 0.25));
+  padding: 40px;
 }
-.promocao-bg .h1{
-  font-size: 3rem;
-  color: #202020;
+.promocao-frase h1{
   text-align: center;
-  margin-bottom: 50px;
-  font-family: "Livvic";
-}
-.promocao-bg .p{
+  font-size: 3rem;
+  padding-bottom:40px;
+  text-transform: uppercase;
   
-  color: #3f3f3f;
-  font-size: 2rem;
-  
-  font-family: 'Sarabun';
 
-  
 }
-.citacao p{
-  font-size: 1.4rem;
-  color: #463a00;
-  margin-top: 40px;
-  text-align: right;
-  font-weight: 500;
-  font-family: "Sarabun";
+.promocao-frase h1{
+  color: #3d3d3a;
 }
 
-@media(max-width:700px){
-  #background{
-    background: linear-gradient(#111111 400px, #f7f7f7 0px);
+.promocao-frase p{
+  color:#555555 ;
+  padding-bottom: 40px;
+}
+
+.flex-promo h1{
+  margin-right: 20px;
+}
+
+.flex-promo{
+  display: flex;
+  justify-content: center;
+  align-items:baseline;
+}
+.icon-promo img{
+  width: 50px;
+}
+
+
+@media(max-width:600px){
+  .promocao-frase h1{
+    font-size: 2.2rem;
+    text-align: left;
   }
-  .promocao{
-    padding: 40px;
+  .promocao-frase p {
+    font-size: 1.8rem;
   }
-  .promocao-bg .h1{
+
+  .h1-bg h1{
+    font-size: 2.6rem
+  }
+  .h1-bg{
+    padding-top: 0;
+   
+  }
+}
+@media(max-width:500px){
+  .promocao-frase h1{
     font-size: 2rem;
-  }
-  .promocao-bg .p{
-    font-size: 1.5rem;
+    padding-bottom: 20px;
   }
 }
 @media(max-width:400px){
-  
-  .promocao{
+  .promocao-frase h1{
+    font-size: 1.6rem;
+  }
+  .promocao-frase p{
+    font-size: 1.4rem;
+  }
+  .h1-bg{
+    padding-top: 10px;
+    padding-bottom: 40px;
+  }
+  .h1-bg h1{
+    font-size: 2rem;
+  }
+  .agendar-formulario{
     padding: 20px;
   }
-  .promocao-bg .h1{
-    font-size: 1.8rem;
-    margin-bottom: 28px;
-    
-  }
-  .promocao-bg .p{
-    font-size: 1.4rem;
+  .agendar{
+    margin-bottom: 80px;
   }
 }

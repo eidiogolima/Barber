@@ -78,6 +78,10 @@ br{
 
 
 @media(max-width:600px){
+  .tecnologia-bg{
+    background-color: #1d1d1d;
+    padding: 160px 0;
+  }
   br{
     display: initial;
   }
@@ -116,6 +120,7 @@ br{
     height: 0;
   }
   .tecnologia-bg h1{
+    color: #eeeeee;
     text-transform: none;
     font-weight: 600;
     font-size: 2.4rem;
@@ -124,7 +129,7 @@ br{
     line-height: 100%;
   }
   .tecnologia-bg li {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   .tecnologia-lista li {
     justify-content: space-between;
@@ -132,18 +137,22 @@ br{
     text-align: left;
     padding: 20px;
     border-radius: 4px;
-    color: #141414;
+    color: #dfdfdf;
+
     
+  }
+  .tecnologia-lista li:hover{
+    border-left: 4px solid #D2C01E;
   }
   .tecnologia-lista li:last-child,
   .tecnologia-lista li:first-child{
-    color: #cfcfcf;
-    border-left: 4px solid #D2C01E;
+    color: #dfdfdf;
+    
 
     
   }
   .tecnologia-bg .estilo:nth-child(odd){
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(54, 54, 54);
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
   }
   
